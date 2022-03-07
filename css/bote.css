@@ -1,0 +1,1794 @@
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    overflow: hidden;
+}
+
+button{
+    outline: none !important;
+}
+
+/* navbar start */
+
+.navbar-inverse .navbar-brand{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 1.3rem;
+    color: #fff;
+    transition: all 0.2s ease-out 0s;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+    color: #1abc9c;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #1abc9c;
+}
+
+.navbar-inverse{
+    padding: 0.5% 0%;
+    border-color: transparent;
+    background-color: #2C2D31;
+}
+
+.navbar{
+    margin-bottom: 0rem;
+    border-radius: 0rem;
+    position: sticky;
+    z-index: 999;
+    top: 0%;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: transparent;
+}
+
+/* navbar end */
+
+/* bennar strt */
+
+.bennar{
+    background-image: url(../images//slider/big1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    /* height: 85vh; */
+    /* height: 100%; */
+    position: relative;
+    padding-bottom: 15%;
+}
+
+.bennar-child{
+    width: 100%;
+    /* background-color: #1abc9c; */
+    text-align: center;
+    color: #fff;
+    padding: 10% 12% 0% 12%;
+}
+
+.bennar-child h1{
+    margin-bottom: 5%;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.bennar-child p{
+    font-size: 1.4rem;
+    padding: 0% 3%;
+}
+
+.bennar-child button{
+    margin-top: 4.5%;
+    border: 0.2rem solid #fff;
+    border-radius: 5rem;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.2% 2%;
+    
+}
+
+.bennar-child button:hover{
+    animation: flame 0.5s linear 0s 1 alternate forwards;
+}
+
+@keyframes flame{
+    0% {
+        color: #fff;
+        transform: scalex(1.5);
+    }
+
+    70% {
+        color: #fff;
+        transform: scalex(1);
+    }
+
+    80% {
+        color: #fff;
+        transform: scalex(1.3);
+    }
+
+    100%{
+        color: #fff;
+        transform: scalex(1);
+    }
+}
+
+.abhi{
+    position: absolute;
+    /* top: 63%; */
+    bottom: -2%;
+    fill: rgb(255, 255, 255);
+}
+
+/* bennar end */
+
+/* first part start */
+
+.first{
+    width: 100%;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.first h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-bottom: 5%;
+    color: #484f58;
+}
+
+.hart{
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding-top: 5%;
+}
+
+.hart i{
+    font-size: 3.5rem;
+    background-color: #fff;
+    border: 0.2rem solid  #484f58;
+    border-radius: 100%;
+    padding: 12%;
+    color: #484f58;
+    transition: all 0.3s ease-out 0s;
+    
+}
+
+.hart-child h2{
+    font-weight: 400;
+    margin: 25% 0% 12% 0%;
+    color: #484f58;
+}
+
+.hart-child p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #777777;
+}
+
+.hart-child button{
+    margin-top: 4%;
+    background-color: #1abc9c;
+    border-radius: 4rem;
+    border: 0rem;
+    margin-bottom: 10%;
+    padding: 4% 10%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.first-child:hover .hart i{
+    transform: scale(1.2);
+}
+
+.hart-child button:hover{
+    animation: abhishak 0.5s linear 0s 1 alternate forwards;
+}
+
+@keyframes abhishak{
+    0% {
+    padding: 2.8% 5.8%;
+    color: #fff;
+    }
+
+    25% {
+    padding: 4% 10%;
+    color: #fff;
+    }
+
+    50% {
+    padding: 3.5% 8%;
+    color: #fff;
+    }
+    100%{
+    padding: 4% 10%;
+    color: #fff;
+    }
+}
+
+/* first part end */
+
+/* secand past start */
+
+.secand{
+    width: 100%;
+    background: #ECF0F1;
+    padding: 10% 0% 0% 0%;
+    text-align: center;
+    position: relative;
+}
+
+.secand h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-bottom: 0%;
+    color: #484f58;
+}
+
+.secand ul{
+    list-style: none;
+    padding: 0%;
+}
+
+.secand ul li{
+    margin: 2% 0%;
+    display: inline-block;
+    border-radius: 5rem;
+    padding: 0.7% 1.5%;
+    transition: all 1s ease-out 0s;
+}
+
+/* .secand ul li{
+    border-radius: 5rem;
+    border: 0.2rem solid;
+    color: black;
+    color: #1abc9c;
+    padding: 0.7% 1.5%;
+    transition: all 1s ease-in 0s;
+} */
+
+/* .secand ul li:hover{
+    border: 1rem solid #1abc9c;
+} */
+
+.secand ul li a:hover{
+    color: #1abc9c;
+}
+
+.secand ul li a{
+    text-decoration: none;
+    color: #484f58;
+    transition: all 0.2s linear 0s;
+    font-size: 1.5rem;
+}
+
+
+/* .secand ul li:hover{
+    color: #1abc9c;
+} */
+
+.secand-child{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.secand-child .hiden-box{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    position: absolute;
+    background-image: linear-gradient(to right top, #6578bc, #1abc9c);
+    border-radius: 2%;
+    text-align: left;
+    color: #fff;
+    /* padding-top: 20%; */
+    overflow: hidden;
+    opacity: 0%;
+    padding-left: 5%;
+    transition: all 0.2s ease-out 0s;
+}
+
+.secand-child:hover .hiden-box{
+    /* padding-top: 25%; */
+    opacity: 80%;
+} 
+
+.secand-child:hover .hiden-box h2{
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-top: 3%;
+    top: 70%;
+    position: absolute;
+}
+
+.secand-child:hover .hiden-box span{
+    top: 63%;
+    font-size: 1.5rem;
+}
+
+.hiden-box h2{
+    font-size: 5rem;
+    font-weight: 300;
+    margin-top: 3%;
+    top: 55%;
+    position: absolute;
+    transition: all 0.2s ease-out 0s;
+}
+
+.hiden-box span{
+    top: 48%;
+    position: absolute;
+    transition: all 0.2s ease-out 0s;
+    font-size: 2.2rem;
+}
+
+.secand-child img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+.cartoon{
+    margin-bottom: 2%;
+}
+
+.main-box{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 25%;
+}
+
+/* #all{
+    border-radius: 5rem;
+    border: 0.2rem solid;
+    color: #1abc9c;
+    padding: 0.7% 1.5%;
+} */
+
+.bihari{
+    position: absolute;
+    top: -0.5%;
+    fill: rgb(221, 245, 10);
+    left: 0%;
+}
+
+.delhi{
+    position: absolute;
+    /* top: 50%; */
+    bottom: -1%;
+    left: 0%;
+}
+
+.secand button{
+    margin-top: -25%;
+    background-color: #1abc9c;
+    border-radius: 4rem;
+    border: 0rem;
+    margin-bottom: 5%;
+    padding: 0.8% 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    transition: all 0.3s ease-out 0s;
+}
+
+.secand button:hover{
+    color: #fff;
+    transform: scale(1.3);
+}
+
+/* secand past start */
+
+/* thaard section start */
+
+.thard{
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+}
+
+.red-1{
+    /* background-color: #a49fec; */
+    padding: 2% 9%;
+}
+
+.fa-quote-left{
+    font-size: 7rem;
+    color: #1abc9c;
+    margin-bottom: 4%;
+}
+
+.thard p{
+    color: #777777;
+    margin-bottom: 0%;
+}
+
+.thard h4{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #484f58;
+}
+
+.carousel-indicators{
+    top: 110%;
+}
+
+/* thaard section end */
+
+/* fouth start */
+
+.fourth{
+    width: 100%;
+    background: #ECF0F1;
+    position: relative;
+    padding: 15% 0% 18% 0%;
+    text-align: center;
+}
+
+.mumbai{
+    position: absolute;
+    top: -1%;
+    left: 0%;
+}
+
+.fourth h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-bottom: 4%;
+    color: #484f58;
+}
+
+.fourth-child{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.vecation{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 4.5%;
+}
+
+.image-of-fourth{
+    width: 100%;
+}
+
+.image-of-fourth img{
+    width: 100%;
+}
+
+.vecation h2{
+    font-size: 2rem;
+    margin-bottom: 1%;
+}
+
+.vecation h2 a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.vecation span{
+    font-size: 1.2rem;
+}
+
+.vecation span a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.vecation p{
+    color: #777777;
+    line-height: 3rem;
+    font-weight: 500;
+    margin-top: 5%;
+    padding: 0% 3%;
+    font-size: 1.4rem;
+}
+.vecation p span{
+    color: #1abc9c;
+    font-size: 1.4rem;
+}
+
+
+.vecation button{
+    margin-top: 1%;
+    background-color: #1abc9c;
+    border-radius: 4rem;
+    border: 0rem;
+    margin-bottom: 5%;
+    padding: 2% 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    transition: all 0.3s ease-out 0s;
+}
+
+.vecation button:hover{
+    color: #fff;
+    transform: scale(1.3);
+}
+
+
+#jp{
+    margin-top: 1%;
+    background-color: #1abc9c;
+    border-radius: 4rem;
+    border: 0rem;
+    padding: 0.8% 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+
+.kolkata{
+    position: absolute;
+    bottom: -1%;
+    left: 0%;
+}
+
+/* fouth end */
+
+/* fifth part start */
+
+.fifth{
+    width: 100%;
+    text-align: center;
+    padding: 0% 0% 3% 0%;
+}
+
+.fifth h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-bottom: 5%;
+    color: #484f58;
+}
+
+.fifth-child-1{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.fifth-child-2{
+    width: 100%;
+    text-align: center;
+    border: 0.2rem solid #dee3e4;
+    border-radius: 0.6rem;
+    transition: all 0.3s ease-in 0s;
+}
+
+
+.dolar-box h2{
+    font-weight: 400;
+    color: #1abc9c;
+    font-size: 2.6rem;
+    margin-bottom: 15%;
+    margin-top: 0%;
+    padding: 8% 0%;
+    transition: all 0.3s ease-in 0s;
+
+}
+
+.dolar-box #hp {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1abc9c;
+    background-color: #fff;
+    border: 0.2rem solid #1abc9c;
+    border-radius: 100%;
+    padding: 18% 0%;
+    margin: 0 24%;
+    margin-bottom: 15%;
+    transition: all 0.3s ease-in 0s;
+
+}
+
+.fifth-child-2 p{
+    color: #979797;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 8%;
+}
+
+.fifth-child-2 p span{
+    color: #484f58;
+    font-weight: 600;
+}
+
+.fifth-child-2 button{
+    margin-top: 10%;
+    background-color: #1abc9c;
+    border-radius: 4rem;
+    border: 0rem;
+    margin-bottom: 10%;
+    padding: 4% 24%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    letter-spacing: 0.3rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    transition: all 0.3s ease-in 0s;
+}
+
+.fifth-child-2 button:hover{
+    color: #fff;
+    transform: scale(1.15);
+}
+
+.fifth-child-2:hover {
+    border-color: #484f58;
+    transform: scale(1.1);
+    border-radius: 0.2rem;
+}
+
+.fifth-child-2:hover .dolar-box h2{
+    color: #fff;
+    background: #484f58;
+}
+
+.fifth-child-2:hover .dolar-box #hp{
+    color: #fff;
+    background: #484f58;
+    border-color: #484f58;
+    transform: scale(1.1);
+    /* transform: rotate(360deg); */
+}
+
+.fifth-child-2:hover #PRICING{
+    color: #fff;
+    background: #484f58;
+}
+
+/* fifth part end */
+
+/* sixth part start */
+
+.sixth{
+    background-image: url(../images/parallax2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    /* height: 85vh; */
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.cup{
+    /* background-color: crimson; */
+    text-align: center;
+}
+
+.cup i{
+    color: #1abc9c;
+    font-size: 6rem;
+}
+
+.cup h2{
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+
+.cup p{
+    color: #979797;
+    font-size: 1.5rem;
+}
+
+.asam{
+    position: absolute;
+    top: -1%;
+    left: 0%;
+
+}
+
+.forest{
+    position: absolute;
+    bottom: -1%;
+    left: 0%;
+    fill: #ECF0F1;
+}
+
+/* sixth part end */
+
+/* secventh part start */
+
+.seventh{
+    width: 100%;
+    background: #ECF0F1;
+    text-align: center;
+    padding: 1% 0% 20% 0%;
+    position: relative;
+}
+
+.seventh h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-bottom: 5%;
+    color: #484f58;
+    margin-top: 0%;
+}
+
+.seventh-child{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.seventh-child-2{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.8rem;
+}
+
+.ceo{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+}
+
+.ceo img{
+    width: 100%;
+}
+
+.seventh-child-2 h3{
+    font-size: 1.8rem;
+    color: #484f58;
+}
+
+.seventh-child-2 p{
+    color: #1abc9c;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding-bottom: 6%;
+}
+
+.hiden-of-seventh{
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    top: 100%;
+    left: 0%;
+    padding:5% 0%;
+    transition: all 0.2s ease-out 0s;
+}
+
+.hiden-of-seventh i{
+    font-size: 2.5rem;
+    color: #484f58;
+}
+
+/* .hiden-of-seventh i:hover{
+    color: #1abc9c;
+} */
+
+.hiden-of-seventh i:hover{
+    animation: garden 0.5s linear 0s 1 alternate forwards;
+}
+
+@keyframes garden{
+    0% {
+        color: #1abc9c;
+        transform: scaley(1.5);
+    }
+
+    25% {
+        color: #1abc9c;
+        transform: scaley(1);
+    }
+
+    50% {
+        color: #1abc9c;
+        transform: scaley(1.3);
+    }
+
+    100%{
+        color: #1abc9c;
+        transform: scaley(1);
+    }
+}
+
+.seventh-child-2:hover .hiden-of-seventh{
+    top: 80%;
+}
+
+.channai{
+    position: absolute;
+    bottom: -1%;
+    left: 0%;
+}
+
+/* seventh part end */
+
+/* egght paart start */
+
+.eight{
+    width: 100%;
+    background-color: #fff;
+    padding:2% 0;
+}
+
+.eight-child{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.eight-child-2{
+    width: 100%;
+}
+
+.eight-child-2 img{
+    width: 100%;
+}
+
+/* egght paart end */
+
+/* ninth part start */
+
+.ninth{
+    width: 100%;
+    background-color: crimson;
+    height: 100vh;
+    position: relative;
+}
+
+.ninth iframe{
+    width: 100%;
+    height: 100%;
+    /* padding: 30% 0%; */
+}
+
+.mape-ap{
+    position: absolute;
+    top: -1%;
+    left: 0%;
+}
+
+.gurugram{
+    position: absolute;
+    bottom: -1%;
+    left: 0%;
+}
+
+
+/* ninth part end */
+
+/* tenth part start */
+
+.tenth{
+    width: 100%;
+    position: relative;
+}
+
+.tenth h1{
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-bottom: 5%;
+    color: #484f58;
+    text-align: center;
+}
+
+.tenth-child{
+    width: 95%;
+    margin: 0%;
+}
+
+.tenth-child-2{
+    width: 95%;
+}
+
+.talk h2{
+    /* font-size: 1.8rem; */
+    color: #484f58;
+    font-weight: 400;
+}
+
+.talk p{
+    color: #777777;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+}
+
+.icon-box{
+    position: relative;
+}
+
+
+.icon-box h2{
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #484f58;
+    margin-top: 0%;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-weight: 400;
+}
+
+.icon-box i{
+    font-size: 2.2rem;
+    color: #1abc9c;
+    padding: 2% 3.5% 2% 0%;
+    /* background-color: crimson; */
+    border-right: 0.2rem solid #ebebeb;
+    margin-top: 5%;
+}
+
+#loca{
+    padding: 2% 4.4% 2% 0%;
+}
+
+
+.icon-box p{
+    position: absolute;
+    top: 77% ;
+    left: 10%;
+    font-size: 1.3rem;
+}
+
+.details{
+    /* background-color: crimson; */
+    padding-top: 2rem;
+}
+
+.details input{
+    width: 100%;
+    padding: 2% 0% 2% 2%;
+    border: 2px solid #ebebeb;
+    border-radius: 0.6rem;
+    margin-bottom: 4%;
+    outline: none !important;
+}
+
+.details textarea{
+    width: 100%;
+    border: 2px solid #ebebeb;
+    border-radius: 0.6rem;
+    padding: 2% 0% 2% 2%;
+    outline: none !important;
+}
+
+.details button{
+        margin-top: 3%;
+        background-color: #1abc9c;
+        border-radius: 4rem;
+        border: 0rem;
+        margin-bottom: 2%;
+        margin-left: 33%;
+        padding: 2% 6%;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        font-size: 1.8rem;
+        font-weight: 400;
+        transition: all 0.3s ease-in 0s;
+}
+
+.details button:hover{
+    animation: flame 0.4s linear 0s 1 alternate forwards;
+}
+
+@keyframes flame{
+    0% {
+        color: #fff;
+        transform: scalex(0.5);
+    }
+
+    20% {
+        color: #fff;
+        transform: scalex(1);
+    }
+
+    40% {
+        color: #fff;
+        transform: scalex(0.7);
+    }
+
+    80%{
+        color: #fff;
+        transform: scalex(1);
+    }
+}
+
+.tenth h1{
+    margin-bottom: 2%;
+}
+/* tenth part end */
+
+/* footer part start */
+
+footer{
+    width: 100%;
+    background: #2C2D31;
+    color: #fff;
+    padding: 15% 0% 5% 0%;
+    position: relative;
+}
+
+.footer-child{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.last h2{
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin-bottom: 18%;
+}
+.last p{
+    line-height: 2.8rem;
+}
+
+.last ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    transition: all 0.2s ease-out 0s;
+}
+
+.last ul li{
+    margin-bottom: 10%;
+    transition: all 0.2s ease-out 0s;
+}
+
+.last ul li:hover{
+    color: #1abc9c;
+}
+
+.last ul li a:hover{
+    color: #1abc9c;
+}
+
+.last ul{
+    padding-left: 6%;
+}
+
+.dificalt{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.dificalt-child{
+    width: 32%;
+}
+
+.dificalt-child img{
+    width: 100%;
+    border-radius: 0.8rem;
+    margin-bottom: 10%;
+}
+
+.last-icon{
+    width: 100%;
+    text-align: center;
+}
+
+.last-icon i{
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 5% 2.5% 3% 2.5%;
+}
+
+.last-icon i:hover{
+    animation: history 0.5s linear 0s 1 alternate forwards;
+}
+
+@keyframes history{
+    0% {
+        color: #1abc9c;
+        transform: scaley(1.5);
+    }
+
+    25% {
+        color: #1abc9c;
+        transform: scaley(1);
+    }
+
+    50% {
+        color: #1abc9c;
+        transform: scaley(1.3);
+    }
+
+    100%{
+        color: #1abc9c;
+        transform: scaley(1);
+    }
+}
+
+.blog{
+    position: absolute;
+    top: -1% ;
+    left: 0%;
+}
+
+
+/* footer part end */
+
+
+/* media query start */
+
+@media only screen and (max-width: 1200px){
+
+    .bennar-child h1{
+        font-size: 3.9rem;
+    }
+
+    .hart-child h2{
+        font-size: 2.8rem;
+    }
+
+    .dolar-box h2{
+        font-size: 2.4rem;
+    }
+
+    .sixth{
+        padding-top: 20%;
+        padding-bottom: 30%;
+    }
+
+
+}
+
+@media only screen and (max-width: 992px){
+    .bennar-child h1{
+        font-size: 3rem;
+    }
+
+    .first h1{
+        font-size: 4rem;
+    }
+
+    .hart-child h2{
+        font-size: 2rem;
+    }
+
+    .hart-child p{
+        font-size: 1.3rem;
+    }
+
+    .secand h1{
+        font-size: 4rem;
+    }
+
+    .cartoon {
+        margin-bottom: 3%;
+    }
+
+    .fourth h1{
+        font-size: 4rem;
+    }
+
+    .fifth h1{
+        font-size: 4rem;
+    }
+
+    .dolar-box h2{
+        margin-bottom: 10%;
+    }
+
+    .dolar-box #hp{
+        margin: 0% 27% 15% 27%;
+    }
+
+    .fifth-child-2{
+        margin-bottom: 8%;
+    }
+
+    .fifth-child-2 button{
+        margin-top: 2%;
+    }
+
+    .seventh h1{
+        font-size: 4rem;
+    }
+
+    .seventh-child-2{
+        margin-bottom: 7%;
+    }
+
+    .eight{
+        padding: 0%;
+    }
+
+    .eight-child-2{
+        margin-bottom: 2%;
+    }
+
+    .tenth h1{
+        font-size: 4rem;
+    }
+
+    .icon-box h2{
+        top: 28%;
+        left: 14%;
+    }
+
+    .icon-box p{
+        top: 70%;
+        left: 14%;
+    }
+
+    .details button{
+        margin-left: 25%;
+    }
+
+    .tenth{
+        margin-bottom: 3%;
+    }
+
+    .details input{
+        padding: 4.5% 0% 4.5% 2%;
+    }
+
+    .last h2{
+        font-size: 2rem;
+    }
+
+    .last ul li{
+        margin-bottom: 14%;
+    }
+
+    .dificalt-child{
+        width: 48%;
+    }
+
+    .last-icon i{
+        font-size: 2rem;
+    }
+
+    .navbar-inverse .navbar-brand{
+        font-size: 2.5rem;
+    }
+
+    .bennar-child button{
+        padding: 1.2% 4%;
+        margin-bottom: 5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px){
+    .first h1{
+        font-size: 3rem;
+    }
+
+    .first-child{
+        border: 00.2rem solid #2C2D31;
+        width: 55%;
+        margin: 0 auto;
+        padding: 0% 2%;
+        margin-bottom: 3.5%;
+        border-radius: 0.5rem;
+    }
+
+    .hart-child h2{
+        margin: 10% 0% 10% 0%;
+    }
+
+    .hart-child button{
+        padding: 3% 8%;
+    }
+
+    .secand h1{
+        font-size: 3rem;
+    }
+
+    .secand-child{
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+
+    .main-box{
+        padding-bottom: 17%;
+    }
+    
+    .fourth h1{
+        font-size: 3rem;
+    }
+
+    .vecation{
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 3%;
+    }
+
+    .fourth{
+        padding: 15% 0% 16% 0%;
+    }
+
+    .fifth h1{
+        font-size: 3rem;
+    }
+
+    .fifth-child-2{
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 3%;
+    }
+
+    .dolar-box #hp {
+        margin: 0% 27% 10% 27%;
+    }
+
+    .fifth-child-2 p{
+        margin-bottom: 5%;
+    }
+
+    .fifth-child-2 button{
+        padding: 3% 15%;
+    }
+
+    .dolar-box h2{
+        margin-bottom: 5%;
+    }
+
+    .fifth-child-2 button{
+        margin-bottom: 8%;
+    }
+
+    .cup{
+        width: 100%;
+    }
+
+    .cup i{
+        font-size: 5rem;
+    }
+
+    .cup h2{
+        font-size: 2rem;
+    }
+
+    .cup p{
+        font-size: 1.3rem;
+    }
+
+    .seventh h1{
+        font-size: 3rem;
+    }
+
+    .seventh-child-2{
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+
+    .hiden-of-seventh{
+        top: 88%;
+        padding: 5% 12%;
+    }
+
+    .ceo{
+        overflow: visible;
+    }
+
+    .hiden-of-seventh i{
+        font-size: 2.2rem;
+    }
+
+    .seventh{
+        padding: 1% 0% 13% 0%;
+    }
+
+    .eight-child-2{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .tenth h1{
+        font-size: 3rem;
+    }
+
+    .tenth-child{
+        margin: 0 auto;
+    }
+
+    .tenth-child-2{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .icon-box i{
+        border: none;
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+
+    .icon-box h2 {
+        top: 60%;
+        left: 25%;
+    }
+
+    .icon-box p{
+        top: 62%;
+        left: 40%;
+    }
+
+    .details input {
+        padding: 2.5% 0% 2.5% 2%;
+        margin-bottom: 2%;
+    }
+
+    .details button{
+        padding: 1.5% 5%;
+        font-size: 1.5rem;
+        margin-left: 35%;
+    }
+
+    .last{
+        text-align: center;
+    }
+
+    .last h2{
+        margin-bottom: 8%;
+    }
+
+    .last ul li{
+        list-style: none;
+        margin-bottom: 15%;
+    }
+
+    .dificalt-child {
+        width: 48%;
+    }
+
+    .addres{
+        display: none;
+    }
+
+    .navbar-inverse .navbar-toggle{
+        border-color: #fff;
+    }
+
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+        background-color: #222;
+    }
+
+    .navbar-nav{
+        text-align: center;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 550px){
+    .bennar-child h1{
+        font-size: 2.1rem;
+    }
+
+    .bennar-child p{
+        font-size: 1.2rem;
+    }
+
+    .first h1 {
+        font-size: 2.8rem;
+    }
+
+    .first-child{
+        width: 100%;
+    }
+
+    .hart-child h2 {
+        margin: 5% 0% 5% 0%;
+    }
+
+    .hart i{
+        padding: 10%;
+    }
+
+    .hart-child h2{
+        font-size: 1.8rem;
+    }
+
+    .hart-child p {
+        font-size: 1.2rem;
+    }
+
+    .hart-child button {
+        padding: 2% 5%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    .secand h1{
+        font-size: 2.8rem;
+    }
+
+    .secand ul li{
+        padding: 3% 5%;
+    }
+
+    .secand ul{
+        margin: 0%;
+    }
+    .secand ul li a{
+        
+    }
+
+    .secand-child{
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    .secand button{
+    padding: 2% 5%;
+    margin-top: 0%;
+    margin-bottom: 20%
+    }
+
+    .main-box{
+        padding-bottom: 0%;
+    }
+
+    .delhi{
+        bottom: -0.1%;
+    }
+
+    .fourth h1 {
+        font-size: 2.8rem;
+    }
+
+    .vecation{
+        width: 100%;
+    }
+
+    .vecation h2{
+        font-size: 1.8rem;
+    }
+
+    .vecation p{
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+        margin-top: 2%;
+    }
+    .vecation button{
+        padding: 2% 5%;
+        margin-top: 2%;
+    }
+
+    .fourth {
+        padding: 12% 0% 16% 0%;
+    }
+
+    .fifth h1 {
+        font-size: 2.8rem;
+    }
+
+    .fifth-child-2{
+        width: 100%;
+        margin-bottom: 7%;
+    }
+
+    .dolar-box h2{
+        padding: 6% 0%;
+    }
+
+    .dolar-box #hp{
+        padding: 13% 0%;
+        margin: 0% 33% 5% 33%;
+    }
+
+    .fifth-child-2 button {
+        padding: 2% 30%;
+    }
+
+    .fifth-child-2 p {
+        margin-bottom: 4%;
+    }
+
+    .fifth-child-2 p{
+        font-size: 1.3rem;
+    }
+
+    .cup i{
+        font-size: 4rem;
+    }
+
+    .cup h2 {
+        font-size: 1.8rem;
+    }
+
+    .seventh h1 {
+        font-size: 2.8rem;
+    }
+
+    .seventh-child-2{
+        width: 100%;
+    }
+
+    .eight-child-2{
+        width: 65%;
+    }
+
+    .tenth h1{
+        font-size: 2.8rem;
+    }
+
+    .talk h2{
+        font-size: 2.5rem;
+    }
+
+    .last h2 {
+        font-size: 1.5rem;
+    }
+
+    .last p{
+        font-size: 1rem;
+        line-height: 2.2rem;
+    }
+
+    .last ul li a{
+        font-size: 1rem;
+    }
+
+    .last ul li{
+        margin-bottom: 7%;
+    }
+
+    .last-icon i {
+        font-size: 1.5rem;
+    }
+
+    .last-icon p{
+        font-size: 0.8rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 436px){
+    .secand ul li {
+        padding: 3% 3%;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .bennar-child h1 {
+        font-size: 2rem;
+    }
+
+    .bennar-child p{
+        line-height: 2rem;
+    }
+
+    .first h1 {
+        font-size: 2.5rem;
+    }
+
+    .secand h1 {
+        font-size: 2.5rem;
+    }
+
+    .fa-quote-left{
+        font-size: 5rem;
+    }
+
+    .fourth h1 {
+        font-size: 2.5rem;
+    }
+
+    .fifth h1 {
+        font-size: 2.5rem;
+    }
+
+    .cup i{
+        font-size: 3.5rem;
+        padding-top: 40%;
+    }
+
+    .cup h2 {
+        font-size: 1.4rem;
+    }
+
+    .seventh h1{
+        font-size: 2.5rem;
+    }
+
+    .hiden-of-seventh i {
+        font-size: 2rem;
+    }
+
+    .hiden-of-seventh{
+        padding: 5% 20%;
+    }
+
+    .tenth h1 {
+        font-size: 2.8rem;
+    }
+
+    .talk h2 {
+        font-size: 2.2rem;
+    }
+
+    .last p {
+        font-size: 0.9rem;
+        line-height: 1.9rem;
+    }
+
+    .last ul li a{
+        font-size: 0.9;
+    }
+
+    .last h2 {
+        font-size: 1.4rem;
+        margin-bottom: 25%;
+    }
+
+    .last ul li {
+        margin-bottom: 36%;
+    }
+
+    .dificalt-child {
+        width: 65%;
+        margin-left: 20%;
+    }
+
+    .details button{
+        margin-left: 30%;
+    }
+
+    .carousel-indicators{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 408px){
+    .dificalt-child {
+        width: 72%;
+        margin-left: 28%;
+    }
+}
+
+@media only screen and (max-width: 394px){
+    .dificalt-child {
+        width: 80%;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .dificalt-child {
+        width: 95%;
+        margin-left: 0%;
+    }
+
+}
+
+
+
+/* .dificalt-child {
+    width: 94%;
+    margin-left: 6%;
+} */
+
+
+/* media query end */
